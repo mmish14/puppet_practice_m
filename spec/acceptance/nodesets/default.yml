@@ -1,0 +1,13 @@
+HOSTS:
+  centos7.4.1708:
+    platform: centos-7-4-1708
+    hypervisor: docker
+    image: centos:7.4.1708
+    docker_preserve_image: true
+    docker_cmd: '["/sbin/init"]'
+    docker_image_commands:
+      - 'rpm -ivh http://yum.puppetlabs.com/puppetlabs-release-el-7.noarch.rpm'
+      - 'yum -y install puppet'
+CONFIG:
+  type: foss
+  log_level: verbose
