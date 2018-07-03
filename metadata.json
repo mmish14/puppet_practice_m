@@ -1,43 +1,24 @@
 {
-  "name": "e5555714-puppet_practice_m",
+  "name": "mayank-puppet_practice_m",
   "version": "0.1.0",
-  "author": "e5555714",
+  "author": "mayank",
   "summary": "",
-  "license": "Apache-2.0",
+  "license": "proprietary",
   "source": "",
   "dependencies": [
-
   ],
   "operatingsystem_support": [
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "8"
-      ]
-    },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
         "7.0"
-      ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "16.04"
-      ]
-    },
-    {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2012 R2"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.7.0 < 6.0.0"
+      "version_requirement": ">= 3.8.0 < 4.0.0"
     }
   ],
   "pdk-version": "1.5.0",
