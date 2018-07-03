@@ -38,6 +38,7 @@ end
 
 group :acceptance do
  gem 'beaker-rspec'
+ gem 'beaker-hiera'
 end
 
 puppet_version = ENV['PUPPET_GEM_VERSION']
